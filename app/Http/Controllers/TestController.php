@@ -11,5 +11,6 @@ class TestController extends Controller{
 
     public function index(){
         echo 'Test-index';
+	echo 'git';
     }
 }
