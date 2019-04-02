@@ -12,4 +12,7 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
 
+    //文章管理
+    $router->resource('article',ArticleController::class);
+
 });

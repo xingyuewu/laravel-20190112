@@ -98,5 +98,13 @@ return [
         'filter_clear'       => '显示全部',
         'filter_placeholder' => '过滤',
     ],
-    'menu_titles' => [],
+    'menu_titles'           => [],
+
+    #新加
+    'last_modify_id'        => '更新人',
+    'article'               => '文章',
+    'unreviewed'            => '未审核',
+    'review_pass'           => '审核通过',
+    'review_failure'        => '审核失败',
+
 ];
