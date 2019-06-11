@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    //return view('welcome');
+    return redirect(env('APP_URL').'/admin');
 });
 
 Route::get('/test', 'TestController@index');
